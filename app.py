@@ -2,8 +2,7 @@ import streamlit as st
 import numpy as np
 st.markdown("""
 <meta name="google-site-verification"
-content="O1ISMJL1igIZCZaQA85Y0vjf5x5YtjTf1eU5xN_bGWo" />
-""", unsafe_allow_ html= True)
+content="O1ISMJL1igIZCZaQA85Y0vjf5x5YtjTf1eU5xN_bGWo" /> """, unsafe_allow_ html= True)
 
 
 st.set_page_config(page_title="IceForm", layout="wide")
@@ -411,3 +410,4 @@ st.markdown(
 unsafe_allow_html=True
 
 )
+
