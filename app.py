@@ -89,7 +89,7 @@ st.markdown('<div class="section-title">Target</div>',unsafe_allow_html=True)
 T=st.number_input("Total Mix (kg)",min_value=0.0)
 
 fat_target=st.number_input("Target Fat (%)")
-snf_target=st.number_input("Target SNF (%)")
+snf_target=st.number_input("Target MSNF (%)")
 sugar_target=st.number_input("Target Sugar (%)")
 
 st.markdown('</div>',unsafe_allow_html=True)
@@ -124,7 +124,7 @@ for name in selected:
     st.markdown(f"### {name} Composition")
 
     fat=st.number_input(f"{name} Fat (%)",key=name+"fat")
-    snf=st.number_input(f"{name} MSNF (%)",key=name+"snf")
+    snf=st.number_input(f"{name} MSNF (%)",key=name+"msnf")
     sugar=st.number_input(f"{name} Sugar (%)",key=name+"sugar")
 
     ingredients.append({
@@ -407,6 +407,7 @@ st.markdown(
 unsafe_allow_html=True
 
 )
+
 
 
 
